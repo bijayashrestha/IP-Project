@@ -1,0 +1,123 @@
+body{
+	margin: 0px;
+}
+header{
+	background-color: black;
+	height: 55px;
+	padding: 5px 0px 10px 10px;
+}
+header h1{
+	color: white;
+	display: inline;
+	float: left;
+	font-size: 40px;
+}
+nav ul{
+	display: inline;
+	float: left;
+}
+nav ul li{
+	display: inline-block;
+	float: left;
+	text-decoration: none;
+list-style-type: none;
+	margin: 5px 25px 0px 5px;
+	text-align: right;
+	height: 55px;
+	width: auto;
+	font-size: 20px;
+	color: white;
+	padding: 15px 0px 0px 0px;
+}
+.homered{
+	text-decoration: none;
+	background-color: red;
+	padding: 60px 3px 12px 10px;
+	color: white;
+}
+.other{
+	text-decoration: none;
+	color: white;
+}
+.other:hover{
+	background-color: red;
+	padding: 50px 3px 7px 3px;
+	color: white;
+	text-decoration: none;
+}
+#login{
+	padding: 0px 0px 0px 680px;
+	text-align: right;
+	text-decoration: none;
+	color: white;
+}
+.inline{
+	background-color: red;
+	height: 5px;
+}
+/*.img{
+	background-image: url(homepage1.jpg);
+	height: 800px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 0px;
+	margin: 0px;
+}*/
+.intro{
+	margin:0%;
+	padding: 9% 0% 0% 55%;
+	font-size: 30px;
+	color: white;
+	opacity: .8;
+}
+.middle{
+	margin: 0.5% 2.9% 0.9% 55%;
+	font-size: 55px;
+	color: white;
+	opacity: .6;
+}
+.end{
+	margin: 0.5% 0% 0% 55%;
+	font-size: 45px;
+	color: white;
+	opacity: .5;}
+.button{
+	margin: 0.5% 0% 0% 55%;
+		background-color: blue;
+		opacity: .5;
+		color: black;
+		border: none;
+		height: 50px;
+		font-size: 1.4em;
+		padding: 0.1em;
+		cursor: pointer;
+		outline: none;
+		font-weight: 700;
+		border-radius: 60px;
+}
+.button2{
+	margin: 0.5% 0% 0% 55%;
+		background-color: red;
+		opacity: .5;
+		color: black;
+		border: none;
+		height: 50px;
+		font-size: 1.4em;
+		padding: 0.1em;
+		cursor: pointer;
+		outline: none;
+		font-weight: 700;
+		border-radius: 60px;
+}
+.button:hover{
+	background-color: black;
+	color:white;
+}
+.button2:hover{
+	background-color: black;
+	color:white;
+}
+.footer{
+	margin: 37% 0% 0% 0%;
+}
